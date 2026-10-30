@@ -1,0 +1,30 @@
+# --- Web framework ---
+streamlit>=1.36.0
+streamlit-webrtc>=0.47.0
+streamlit-autorefresh>=1.0.1
+av>=11.0.0
+
+# --- Computer vision / face detection & recognition ---
+opencv-python-headless>=4.9.0
+insightface>=0.7.3
+onnxruntime>=1.17.0
+numpy>=1.26.0
+
+# --- Database / ORM ---
+SQLAlchemy>=2.0.30
+
+# --- Data / ML utilities ---
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# --- Reporting / export ---
+openpyxl>=3.1.2
+reportlab>=4.1.0
+xlsxwriter>=3.2.0
+
+# --- Charts for dashboard ---
+plotly>=5.20.0
+
+# --- Misc ---
+Pillow>=10.3.0
+python-dateutil>=2.9.0

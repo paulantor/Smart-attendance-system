@@ -1,0 +1,87 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Database files & backups
+# ==========================================
+database/*.db
+database/backups/*
+!database/backups/.gitkeep
+database/settings.json
+
+# ==========================================
+# Student Face Biometrics & Embeddings
+# (Personal / sensitive biometric data)
+# ==========================================
+dataset/*
+!dataset/.gitkeep
+embeddings/*
+!embeddings/.gitkeep
+
+# ==========================================
+# AI Models & Pretrained Weights (>100MB)
+# (InsightFace / RetinaFace / ArcFace weights)
+# ==========================================
+models_weights/*
+!models_weights/.gitkeep
+*.onnx
+*.zip
+*.h5
+*.pb
+
+# ==========================================
+# Logs
+# ==========================================
+logs/*
+!logs/.gitkeep
+*.log
+
+# ==========================================
+# Generated Reports & Classroom Photos
+# ==========================================
+reports/*.csv
+reports/*.xlsx
+reports/*.pdf
+reports/classroom_photos/*
+!reports/classroom_photos/.gitkeep
+
+# ==========================================
+# Binaries, Executables & Utilities
+# ==========================================
+ngrok.exe
+ngrok
+*.exe
+notepad .gitignore
+
+# ==========================================
+# Streamlit Secrets & Environment
+# ==========================================
+.streamlit/secrets.toml
+.env
+
+# ==========================================
+# OS / Editor junk
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
