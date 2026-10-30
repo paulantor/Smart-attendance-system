@@ -1,0 +1,14 @@
+# Root gitignore
+attendance_project/venv/
+attendance_project/__pycache__/
+attendance_project/ngrok.exe
+attendance_project/database/*.db
+attendance_project/database/backups/*
+attendance_project/logs/*.log
+attendance_project/models_weights/*
+attendance_project/dataset/*
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
